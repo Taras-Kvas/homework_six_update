@@ -1,0 +1,245 @@
+.body {
+    margin:0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    height: 100vh;
+    background: url("../img/hero image.png") no-repeat center/cover;
+}
+.header__top {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+.nav {
+    display: flex;
+    column-gap: 23px;
+    margin-top: 11px;
+}
+.nav__item a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.header__contact {
+    border-left: 2px solid white;
+    padding-left: 34px;
+    display: flex;
+    column-gap: 45px;
+    align-items: center;
+}
+.phone {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.header__button {
+    height: 47px;
+    padding: 0 18px;
+    border: none;
+    background-color:#FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .5s;
+}
+.header__button:hover {
+    background-color: #D67E35;
+}
+p {
+    margin: 1px;
+}
+.main__content {
+    margin: 120px 140px;
+
+}
+.main__title {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    padding: 0 22px;
+    margin: 0
+}
+.second__title {
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+    margin: 0;
+}
+.header__title p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    padding: 0 95px;
+    display: flex;
+    align-items:center;
+    column-gap: 8px;
+}
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+.content__button {
+    background-color: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    height: 47px;
+    width: 137px;
+    padding: 14px;
+    margin: 21px 180px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.content__button:hover {
+    height: 70px;
+    width: 150px;
+}
+.about {
+    height: 300px;
+    display: flex;
+    column-gap: 31px;
+}
+.about__item {
+    width: 349px;
+    height: 328px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    box-shadow: 0 5px 33px #343232;
+    position: relative;
+    bottom: 110px;
+}
+.about__item img {
+    width: 126px;
+    height: 124px;
+}
+.text {
+    display: flex;
+    column-gap: 10px;
+}
+.first__word {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.second__word {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #BC9060;
+}
+.description {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+.burger {
+    width: 25px;
+    height: 15px;
+    position: absolute;
+    right: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.burger span {
+    background:#FF7400;
+    width: 30px;
+    height: 5px;
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+}
+.burger span::before, .burger span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #FF7400;
+    position: absolute;
+    border-radius: 15px;
+}
+.burger span::before {
+    bottom: 12px;
+    border-radius: 15px;
+}
+.burger span::after {
+    top: 12px;
+    border-radius: 15px;
+}.title {
+     display: none;
+     flex-direction: column;
+
+ }
+.first__title {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 34px;
+    color: #D67E35;
+}
+.lower__title {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #D67E35;
+}
+.header__title_second {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: -11px;
+    padding: 0 95px;
+    display: flex;
+    align-items:center;
+    column-gap: 8px;
+}
+.menu__btn {
+    background: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    height: 47px;
+    width: 137px;
+    padding: 14px;
+    margin: -4px 386px;
+    cursor: pointer;
+    display: none;
+}
